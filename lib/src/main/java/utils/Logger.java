@@ -7,7 +7,7 @@ public class Logger<T> {
     private String head = "";
     public Logger(T clazz){
         String className = clazz.getClass().getName();
-        if(clazz.getClass().getName().equals("")){
+        if(className.equals("")){
             head = "[Logger] ";
         }else {
             head = String.format("[%s] ", className);
