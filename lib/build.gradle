@@ -25,6 +25,8 @@ dependencies {
 
     // This dependency is used internally, and not exposed to consumers on their own compile classpath.
     implementation 'com.google.guava:guava:31.1-jre'
+    // This dependency can parse Java source code to Abstract Syntax Tree
+    implementation 'com.github.javaparser:javaparser-symbol-solver-core:3.25.0'
 }
 
 tasks.named('test') {

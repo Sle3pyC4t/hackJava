@@ -3,9 +3,12 @@
  */
 package hackjava;
 
+import utils.Logger;
+
 public class Hacker {
+    Logger<Hacker> log = new Logger<>(this);
     public boolean testMethod() {
-        System.out.println("Hello, hacker!");
+        log.info("Hello, hacker!");
         return true;
     }
 }
