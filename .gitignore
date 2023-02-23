@@ -30,3 +30,6 @@ build
 
 # ignore intellij files
 .idea
+
+# ignore BenchmarkJava
+BenchmarkJava
